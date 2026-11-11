@@ -89,6 +89,9 @@ def check():
 def publish(folder):
     video = os.path.join(folder, 'video.mp4')
     caption = open(os.path.join(folder, 'caption.txt'), encoding='utf-8').read().strip()
+    tags = [w for w in caption.split() if w.startswith('#')]
+    if len(tags) > 5:
+        raise RuntimeError(f'ハッシュタグは5個までです（現在{len(tags)}個）')
     size = os.path.getsize(video)
     host, uid, name = discover()
     print(f'publishing {folder} ({size/1e6:.1f} MB) to @{name}')

@@ -47,11 +47,32 @@ def discover():
     if uid:
         info = req('GET', f'{fb}/{VER}/{uid}', {'fields': 'id,username'})
         return fb, info['id'], info.get('username')
-    pages = req('GET', f'{fb}/{VER}/me/accounts', {'fields': 'name,instagram_business_account{id,username}'})
-    for p in pages.get('data', []):
-        iba = p.get('instagram_business_account')
-        if iba:
-            return fb, iba['id'], iba.get('username')
+    try:
+        me = req('GET', f'{fb}/{VER}/me', {'fields': 'id,name'})
+        print('token owner:', me.get('name'), me.get('id'))
+    except RuntimeError as e:
+        print('me failed:', str(e)[:200])
+    probes = [
+        ('me/accounts', {'fields': 'name,instagram_business_account{id,username}'}),
+        ('me/businesses', {'fields': 'id,name,owned_instagram_accounts{id,username},instagram_business_accounts{id,username}'}),
+        ('me/assigned_business_asset_groups', {}),
+    ]
+    for path, params in probes:
+        try:
+            res = req('GET', f'{fb}/{VER}/{path}', params)
+        except RuntimeError as e:
+            print(path, 'failed:', str(e)[:200])
+            continue
+        for p in res.get('data', []):
+            iba = p.get('instagram_business_account')
+            if iba:
+                return fb, iba['id'], iba.get('username')
+            for key in ('instagram_business_accounts', 'owned_instagram_accounts'):
+                for a in (p.get(key) or {}).get('data', []):
+                    print(path, key, a)
+                    if key == 'instagram_business_accounts':
+                        return fb, a['id'], a.get('username')
+        print(path, '->', json.dumps(res)[:300])
     raise RuntimeError('Could not find the Instagram account for this token. Set IG_USER_ID as a repo variable.')
 
 

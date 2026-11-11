@@ -49,7 +49,7 @@ def discover():
         return fb, info['id'], info.get('username')
     try:
         me = req('GET', f'{fb}/{VER}/me', {'fields': 'id,name'})
-        print('token owner:', me.get('name'), me.get('id'))
+        print('me ->', json.dumps(me)[:400])
     except RuntimeError as e:
         print('me failed:', str(e)[:200])
     probes = [

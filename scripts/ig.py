@@ -96,16 +96,28 @@ def publish(folder):
     host, uid, name = discover()
     print(f'publishing {folder} ({size/1e6:.1f} MB) to @{name}')
 
-    c = req('POST', f'{host}/{VER}/{uid}/media',
-            {'media_type': 'REELS', 'upload_type': 'resumable', 'caption': caption, 'share_to_feed': 'true'})
-    cid = c['id']
-    print('container', cid)
-
-    with open(video, 'rb') as f:
-        blob = f.read()
-    up = req('POST', f'https://rupload.facebook.com/ig-api-upload/{VER}/{cid}', data=blob,
-             headers={'Authorization': f'OAuth {TOKEN}', 'offset': '0', 'file_size': str(size)})
-    print('upload', json.dumps(up))
+    base = {'media_type': 'REELS', 'caption': caption, 'share_to_feed': 'true'}
+    cid = None
+    try:
+        c = req('POST', f'{host}/{VER}/{uid}/media', dict(base, upload_type='resumable'))
+        cid = c['id']
+        print('container (resumable)', cid)
+        with open(video, 'rb') as f:
+            blob = f.read()
+        up = req('POST', f'https://rupload.facebook.com/ig-api-upload/{VER}/{cid}', data=blob,
+                 headers={'Authorization': f'OAuth {TOKEN}', 'offset': '0', 'file_size': str(size),
+                          'Content-Type': 'application/octet-stream'})
+        print('upload', json.dumps(up))
+    except RuntimeError as e:
+        # fallback: let Instagram fetch the file from the public repo
+        repo, sha = os.environ.get('GITHUB_REPOSITORY'), os.environ.get('GITHUB_SHA')
+        if not (repo and sha):
+            raise
+        print('resumable upload failed, falling back to video_url:', str(e)[:200])
+        url = f'https://raw.githubusercontent.com/{repo}/{sha}/{urllib.parse.quote(video)}'
+        c = req('POST', f'{host}/{VER}/{uid}/media', dict(base, video_url=url))
+        cid = c['id']
+        print('container (video_url)', cid)
 
     for i in range(60):
         st = req('GET', f'{host}/{VER}/{cid}', {'fields': 'status_code,status'})

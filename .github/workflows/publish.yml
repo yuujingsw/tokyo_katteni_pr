@@ -40,7 +40,7 @@ jobs:
       - run: python3 scripts/ig.py publish "${{ matrix.item }}"
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_USER_ID: ${{ vars.IG_USER_ID }}
+          IG_USER_ID: ${{ vars.IG_USER_ID || '17841435576448672' }}  # @tokyo_katteni_pr（公開情報）
       - name: posted/ に移動して記録
         run: |
           name=$(basename "${{ matrix.item }}")

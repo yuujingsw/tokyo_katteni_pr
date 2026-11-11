@@ -1,0 +1,51 @@
+name: Instagram投稿（承認制）
+on:
+  push:
+    branches: [main]
+    paths: ['queue/**']
+  workflow_dispatch:
+concurrency: instagram-publish
+permissions:
+  contents: write
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      items: ${{ steps.list.outputs.items }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        run: |
+          items=$(for d in queue/*/; do [ -f "$d/video.mp4" ] && [ -f "$d/caption.txt" ] && [ ! -f "$d/result.json" ] && echo "${d%/}"; done | jq -R . | jq -sc .)
+          echo "items=$items" >> "$GITHUB_OUTPUT"
+          {
+            echo "## 承認待ちの投稿"
+            for d in $(echo "$items" | jq -r '.[]'); do
+              echo "### $d"
+              echo "動画: https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_SHA}/$d/video.mp4"
+              echo '```'; cat "$d/caption.txt"; echo; echo '```'
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+  publish:
+    needs: detect
+    if: needs.detect.outputs.items != '[]'
+    runs-on: ubuntu-latest
+    environment: instagram   # ← Required reviewers の承認待ちでここで止まる
+    strategy:
+      max-parallel: 1
+      matrix:
+        item: ${{ fromJson(needs.detect.outputs.items) }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/ig.py publish "${{ matrix.item }}"
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+      - name: posted/ に移動して記録
+        run: |
+          name=$(basename "${{ matrix.item }}")
+          mkdir -p posted
+          git mv "${{ matrix.item }}" "posted/$name"
+          git add "posted/$name/result.json" || true
+          git -c user.name=katteni-bot -c user.email=actions@users.noreply.github.com commit -m "posted: $name [skip ci]"
+          git pull --rebase && git push

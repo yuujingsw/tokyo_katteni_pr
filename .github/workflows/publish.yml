@@ -14,6 +14,8 @@ jobs:
       items: ${{ steps.list.outputs.items }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # 最新のmainを見る（先に投稿済みの分を二重投稿しない）
       - id: list
         run: |
           items=$(for d in queue/*/; do [ -f "$d/video.mp4" ] && [ -f "$d/caption.txt" ] && [ ! -f "$d/result.json" ] && echo "${d%/}"; done | jq -R . | jq -sc .)
@@ -37,6 +39,8 @@ jobs:
         item: ${{ fromJson(needs.detect.outputs.items) }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # 最新のmainを見る（先に投稿済みの分を二重投稿しない）
       - run: python3 scripts/ig.py publish "${{ matrix.item }}"
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}

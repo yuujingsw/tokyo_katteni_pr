@@ -8,7 +8,7 @@ Env:
   IG_ACCESS_TOKEN  (required, GitHub secret — never printed)
   IG_USER_ID       (optional override; otherwise discovered from the token)
 """
-import json, os, sys, time, urllib.error, urllib.parse, urllib.request
+import json, os, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 
 VER = 'v23.0'
 TOKEN = os.environ.get('IG_ACCESS_TOKEN', '').strip()
@@ -97,6 +97,13 @@ def publish(folder):
     print(f'publishing {folder} ({size/1e6:.1f} MB) to @{name}')
 
     base = {'media_type': 'REELS', 'caption': caption, 'share_to_feed': 'true'}
+    repo = os.environ.get('GITHUB_REPOSITORY')
+    head = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True, text=True).stdout.strip()
+    raw = lambda p: f'https://raw.githubusercontent.com/{repo}/{head}/{urllib.parse.quote(p)}'
+    cover = os.path.join(folder, 'cover.jpg')
+    if repo and head and os.path.exists(cover):
+        base['cover_url'] = raw(cover)
+        print('cover', base['cover_url'])
     cid = None
     try:
         c = req('POST', f'{host}/{VER}/{uid}/media', dict(base, upload_type='resumable'))
@@ -110,11 +117,10 @@ def publish(folder):
         print('upload', json.dumps(up))
     except RuntimeError as e:
         # fallback: let Instagram fetch the file from the public repo
-        repo, sha = os.environ.get('GITHUB_REPOSITORY'), os.environ.get('GITHUB_SHA')
-        if not (repo and sha):
+        if not (repo and head):
             raise
         print('resumable upload failed, falling back to video_url:', str(e)[:200])
-        url = f'https://raw.githubusercontent.com/{repo}/{sha}/{urllib.parse.quote(video)}'
+        url = raw(video)
         c = req('POST', f'{host}/{VER}/{uid}/media', dict(base, video_url=url))
         cid = c['id']
         print('container (video_url)', cid)

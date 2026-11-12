@@ -80,6 +80,11 @@ def discover():
 def check():
     host, uid, name = discover()
     print(f'OK  host={host}  ig_user_id={uid}  username=@{name}')
+    for path, p in (('me', {'fields': 'id,name'}), ('me/permissions', {})):
+        try:
+            print(path, '->', json.dumps(req('GET', f'{host}/{VER}/{path}', p), ensure_ascii=False)[:1500])
+        except RuntimeError as e:
+            print(path, 'failed:', str(e)[:300])
     try:
         lim = req('GET', f'{host}/{VER}/{uid}/content_publishing_limit', {'fields': 'quota_usage,config'})
         print('publishing limit:', json.dumps(lim.get('data', lim)))

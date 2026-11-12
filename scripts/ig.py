@@ -80,6 +80,12 @@ def discover():
 def check():
     host, uid, name = discover()
     print(f'OK  host={host}  ig_user_id={uid}  username=@{name}')
+    if 'graph.instagram.com' in host:   # IG-login token: ask how long it lives (value of the new token is NOT printed)
+        try:
+            r = req('GET', 'https://graph.instagram.com/refresh_access_token', {'grant_type': 'ig_refresh_token'})
+            print('token expires_in (days):', round(r.get('expires_in', 0) / 86400, 1), 'type:', r.get('token_type'))
+        except RuntimeError as e:
+            print('refresh probe failed:', str(e)[:300])
     for path, p in (('me', {'fields': 'id,name'}), ('me/permissions', {})):
         try:
             print(path, '->', json.dumps(req('GET', f'{host}/{VER}/{path}', p), ensure_ascii=False)[:1500])

@@ -5,7 +5,7 @@
     "media_count": 5,
     "username": "tokyo_katteni_pr"
   },
-  "fetched_at": "2026-11-12T11:59:08+0000",
+  "fetched_at": "2026-11-12T12:16:33+0000",
   "media": [
     {
       "id": "17977717296141285",
@@ -15,21 +15,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfoaylcEm8E/",
-      "thumbnail_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/899578631_18116491571185882_6925728240999498019_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=WJ587rWtpCwQ7kNvwFJdutA&_nc_oc=AdpT4QbTDHOLNjdSZsLYR74MaLGEV03XTK9RABuGaSiVn4UX-lSkYojP5ey7JJAlhuo&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=yxBbrhGbgHw8sOdxDAmGiQ&_nc_tpa=Q5bMBQIz0XuBhtUXVWXJF_ynbu9fxnbIFSJbrTGTWujuoMlJEl2FEz_Dg1qQVNtkwPxab40uT_ybbgmqXw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQ_1p_PzQAi5Evsmyp111FGwIyT5-2vuqXEHmjO9M0M8w&oe=6AFB6FDF",
+      "thumbnail_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899578631_18116491571185882_6925728240999498019_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=WJ587rWtpCwQ7kNvwEm7OV_&_nc_oc=AdqUK7cDcb3dHEwNR5_6VLmjD7gNUytpeNM9jdFFaiAosc8ykdFem3_xIJsLuPO47FU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=bCA90cGiOtZlLD1cplFGJw&_nc_tpa=Q5bMBQL5e9PWo3Q_Wnh8FxxYQDAK87LfczKBqYprfT_rqvQx_ZHsZl7nUoqLjR2aMexQyK4y78FMmC1N5g&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTDHKRw0gCyv0dP5M5tPQMU1WhVnInoccRwHMtvI3t7yw&oe=6AFB6FDF",
       "timestamp": "2026-11-12T06:32:39+0000",
       "insights": {
-        "_errors": {
-          "views": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQ0HFkd-dsPfq5-5wrgGX40\"}}",
-          "reach": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ax7DhxGKOM2NHDG5535Q2Ux\"}}",
-          "likes": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5-wrFRJScogQFy3a6MKLjn\"}}",
-          "comments": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AkTj3ubhqcIcLuYDIsLBdsq\"}}",
-          "shares": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A2jxK6EGy-D4_UPTWJwEN-Z\"}}",
-          "saved": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANIWIo_F2XbipfuBE6QF-dq\"}}",
-          "total_interactions": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AmGxoaWLJk3p6TbraA9SeHb\"}}",
-          "ig_reels_avg_watch_time": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AvboDN--XOWxps0-9m1Tif-\"}}",
-          "ig_reels_video_view_total_time": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AgrloOgNOTDyVpXU2v73fog\"}}"
-        },
-        "_first_error": "GET https://graph.facebook.com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AL9yZzCZGu7Fh82azNFqoWb\"}}"
+        "views": 132,
+        "reach": 118,
+        "likes": 0,
+        "comments": 0,
+        "shares": 2,
+        "saved": 0,
+        "total_interactions": 2,
+        "ig_reels_avg_watch_time": 10956,
+        "ig_reels_video_view_total_time": 1336723
       }
     },
     {
@@ -40,21 +37,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfoOL9WlU_M/",
-      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/901047633_18116479316185882_5350479544482102819_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TIeSWJHMVAsQ7kNvwGNCKfS&_nc_oc=AdpqrrWnKsZj2O3ggg8Yai6beqYrcd7Cy_Rtoz1xPSdAKXb0vDBhTnoQZOEAraBgHro&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=yxBbrhGbgHw8sOdxDAmGiQ&_nc_tpa=Q5bMBQInr7jjB9-RFmDE5JRjHKH5ETv26wxyqRZnqzTSIz-PiNi9qhhOSyT5BHiyay4fhssLoWIoi8J-5Q&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQCxoi5wVrsUUQ6IhnqndcySVktKfIr0hsSC8zvhMF6mw&oe=6AFB8714",
+      "thumbnail_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/901047633_18116479316185882_5350479544482102819_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TIeSWJHMVAsQ7kNvwHNAmEO&_nc_oc=Adr46Rm4nN3M8oL7lKLAMYTrowWzOqk2rNbBpJ-hs_wR_wz4v-NK8s2RLwpcDZI9VXY&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=bCA90cGiOtZlLD1cplFGJw&_nc_tpa=Q5bMBQLsUz-0mh7QdSH15aXBhw8Xa-_IxpGRLurOfeTLi5wgf_O9MF9bnV4ET4n5Fm-6FIWL3NzdPxC8dA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRrEypUbmyvWvIBWXVzWpyK8B3mWOVgL0z1DglM-hQ3Iw&oe=6AFB8714",
       "timestamp": "2026-11-12T04:42:12+0000",
       "insights": {
-        "_errors": {
-          "views": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AgD1dOCkdr5FZWCgqdy4f-V\"}}",
-          "reach": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AgIC0uDGtioJDhsiW5Rsakp\"}}",
-          "likes": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AOeDM86tScZv1lYY-1TOECc\"}}",
-          "comments": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEClJ-0NdHxo3HGScSWtQuZ\"}}",
-          "shares": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AkwAmnSXrv0-5Nwo26S4run\"}}",
-          "saved": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AoZ2JmI-bVTac-W4ZBypRG2\"}}",
-          "total_interactions": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AiplaLD5gj91S00LfPKyvCL\"}}",
-          "ig_reels_avg_watch_time": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ap-uCMlI8W0TnhB_5h6w4O7\"}}",
-          "ig_reels_video_view_total_time": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AMvJBlJWOhzBQIk2PXRjRle\"}}"
-        },
-        "_first_error": "GET https://graph.facebook.com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxIPVUsjTni_8u28hLrk78d\"}}"
+        "views": 1249,
+        "reach": 1129,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 10757,
+        "ig_reels_video_view_total_time": 12069839
       }
     },
     {
@@ -65,21 +59,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfmXDdXgOr2/",
-      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899311143_18116344376185882_3217061987978367126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=s9RlwCN5ssoQ7kNvwFkQi_B&_nc_oc=AdrerpGZ0tXWFXdP4kLmdo239vlILAktRrPghqe4RfQCc9nB7OYkLj91kjy56EixA_Q&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=yxBbrhGbgHw8sOdxDAmGiQ&_nc_tpa=Q5bMBQJyBccxWF7s2xOFK-8yrchSDDd1lg8viuFPp4-xEp3_XFyWUCYw4K7C3L-dg64hdWkV4-MVlvQFOw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQSpu2McKunTQrCTda6GW-h1yWVBO2v-z5BtAj17Z1FV2w&oe=6AFB90EF",
+      "thumbnail_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/899311143_18116344376185882_3217061987978367126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=s9RlwCN5ssoQ7kNvwHUbsGX&_nc_oc=AdqQQUbHaqsjafS-eUMfFPWDPmQ_nQxWvYCObUGWUyEEs7IUAF-2HtQO7F_XjJrBbdc&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=bCA90cGiOtZlLD1cplFGJw&_nc_tpa=Q5bMBQLyV7K26lZB51twGxGWPx937NWshOcXcbTttmBK_aHPe5OhugggUZ14PhdVJTeLwziCoeq2-AVJhg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQrNuxprovGUPqMm7dKhryuFpE7prcvUe1YngzQWx6txQ&oe=6AFB90EF",
       "timestamp": "2026-11-11T11:20:55+0000",
       "insights": {
-        "_errors": {
-          "views": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATXU2bZzKr1HCeT4pGDa4tx\"}}",
-          "reach": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHCJCARfB_QycbkVlX3J9Xb\"}}",
-          "likes": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANycx-wF8CsGvgR29HSleMa\"}}",
-          "comments": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A3Kg0NQd7_G8rkLKm1B6wYH\"}}",
-          "shares": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AqPzlVo9WTkHlZoZJefIFB0\"}}",
-          "saved": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_WivsBhh_UCU1sXo8V6i_Z\"}}",
-          "total_interactions": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AnOqcHqyqGd813ZtvBxYb5d\"}}",
-          "ig_reels_avg_watch_time": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aw90QHy4SmL7WCr91fcXI0V\"}}",
-          "ig_reels_video_view_total_time": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxazB-aCluu4-FiHozJ0lHN\"}}"
-        },
-        "_first_error": "GET https://graph.facebook.com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AjDRpJM2XczLwbnJ-nx137z\"}}"
+        "views": 1622,
+        "reach": 1420,
+        "likes": 6,
+        "comments": 0,
+        "shares": 2,
+        "saved": 1,
+        "total_interactions": 10,
+        "ig_reels_avg_watch_time": 12907,
+        "ig_reels_video_view_total_time": 18380910
       }
     },
     {
@@ -90,21 +81,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfmSjHyDhRj/",
-      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899351605_18116337356185882_1935015202982407655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZrShPZoQ8HsQ7kNvwFeaqUF&_nc_oc=AdrZ0KVxrkb0bl7mXjBanfK6CzmDtvLVEcLt-Rxsa7vsz3LSGRNXA7e9IxbrgesPQB0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=yxBbrhGbgHw8sOdxDAmGiQ&_nc_tpa=Q5bMBQJWShUdLSgdZSP1Hx3We7TImoS0Bnhb5ANfWs_JW0FHpeuufVdIO5ECzPuB-RKk99HNzhh6JYE11A&_nc_ct=RQosPBUKAAAA&oh=00_AQRt08FeKqTKWvmIx9nHGVQpjiZtH3DIxfl8hU6lGEfMUw&oe=6AFB8856",
+      "thumbnail_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/899351605_18116337356185882_1935015202982407655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZrShPZoQ8HsQ7kNvwHHqM0j&_nc_oc=AdqFNqhYPi3qUCQmSCfir9VqnNHTxOV-JiA1ry62OdptcO4CbL_GVzYeX9df6bFxlyo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=bCA90cGiOtZlLD1cplFGJw&_nc_tpa=Q5bMBQJZ-Tpue2aiiQtCSNj3zz5QV0UGlwtmveOITcOKpETVtEGGgNdpfvRD2c6Rzury6mNMs5Xm_a70fg&_nc_ct=RQosPBUKAAAA&oh=00_AQRIUJLKtJIz0Dv6Bw4XGDLaNynebI4e136LqkgkmFL_0A&oe=6AFB8856",
       "timestamp": "2026-11-11T10:41:35+0000",
       "insights": {
-        "_errors": {
-          "views": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ApZ7gPwNivxau6atSLLVtek\"}}",
-          "reach": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AV14-rfQJMxDMd30P2HiE81\"}}",
-          "likes": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AArDU4hYpfc2TL1aWkGIOkO\"}}",
-          "comments": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIfHBZB3bASHN8XimBQsaWX\"}}",
-          "shares": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A9_SS8z3wXsGPI78GBvr3vI\"}}",
-          "saved": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A1oQCmx3X48IbZv5Uu7weAb\"}}",
-          "total_interactions": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AOj5PPf34p68GPXdRu65HjX\"}}",
-          "ig_reels_avg_watch_time": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATnNmm-DlFsDG5SR1y-buRL\"}}",
-          "ig_reels_video_view_total_time": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASFnhIfKRSOrxcs7BHzWtb-\"}}"
-        },
-        "_first_error": "GET https://graph.facebook.com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AUDD_Qk7mCOke9jFxSPGxMz\"}}"
+        "views": 197,
+        "reach": 182,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "ig_reels_avg_watch_time": 12564,
+        "ig_reels_video_view_total_time": 2274129
       }
     },
     {
@@ -115,21 +103,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfmQTzgD8EW/",
-      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/902285299_18116337437185882_643070603488154745_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=t_Y3DTkQUyUQ7kNvwE9phCE&_nc_oc=AdqWyvO6_xPSfuGbmQv8NLQ05enaCDXdvrEvQ3uTEn3lRJCiBZJt-KiHpFxM9mtMO7c&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=yxBbrhGbgHw8sOdxDAmGiQ&_nc_tpa=Q5bMBQJc2Wcs9Gr7OO6xxRlwONLblrsIh4TTqkVb3IIY1LGj7BRQVI0TRrePGE-AE2FJ4T1iKffdsykFAA&_nc_ct=RQosPBUKAAAA&oh=00_AQS-BpGk-pzJo3dl5HIqvxHLO4iEG4Wxs1dUoWG0gYwhdA&oe=6AFB823D",
+      "thumbnail_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902285299_18116337437185882_643070603488154745_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=t_Y3DTkQUyUQ7kNvwEqjb70&_nc_oc=Adqqt6ZWLjoaUuvnZazaOQGNTrBs1qClb3KMI1fKOZFpPliuRxd8eLhzU5TpK3S-WOU&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=bCA90cGiOtZlLD1cplFGJw&_nc_tpa=Q5bMBQKuvwj_TnAGgilmUvLdR94REU27323k8OqdutOlOvc-oqBJ5YRiPp7NAHsOXR5HI-qOooVZefuXXw&_nc_ct=RQosPBUKAAAA&oh=00_AQR6QoeIvIkkHzdIYM8rCyqYBTbtudiOoTMLraxUvtPkGQ&oe=6AFB823D",
       "timestamp": "2026-11-11T10:22:01+0000",
       "insights": {
-        "_errors": {
-          "views": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_2Xd1TPNB1S_5L31WA6mSp\"}}",
-          "reach": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxdS3irDAd5MFDcXCJVGW-c\"}}",
-          "likes": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AWy09eU7s7BZa9s8oFZB4e_\"}}",
-          "comments": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AlCnf-E83Rl3wAhq_Zzkqnd\"}}",
-          "shares": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AK9KejTiwzkF4CFzyowOYcj\"}}",
-          "saved": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AktZCIPrWrh67cV063IWQy5\"}}",
-          "total_interactions": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZeqyPR3CLPPsKk73MkcVea\"}}",
-          "ig_reels_avg_watch_time": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJCyreUZQwEbCTBV5WfePVY\"}}",
-          "ig_reels_video_view_total_time": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APsX3WX6rfUcCKqB-u_r6aK\"}}"
-        },
-        "_first_error": "GET https://graph.facebook.com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-Wv0lgPGQuEzKegYTqng8r\"}}"
+        "views": 164,
+        "reach": 141,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 12507,
+        "ig_reels_video_view_total_time": 1813618
       }
     }
   ]

@@ -1,0 +1,22 @@
+name: 投稿インサイト取得（読み取りのみ）
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 22 * * *'   # 毎日 7:17 JST
+permissions:
+  contents: write
+concurrency: stats
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/ig.py stats data/stats.json
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID || '17841435576448672' }}
+      - name: save snapshot
+        run: |
+          mkdir -p data/history && cp data/stats.json "data/history/$(date -u +%F).json"
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data && (git diff --cached --quiet || git commit -m "stats: $(date -u +%F) [skip ci]") && git push

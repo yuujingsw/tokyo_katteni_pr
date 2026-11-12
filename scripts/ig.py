@@ -3,6 +3,7 @@
 Usage:
   python scripts/ig.py check                 # verify token, print account (no posting)
   python scripts/ig.py publish queue/<slug>  # publish video.mp4 + caption.txt as a Reel
+  python scripts/ig.py stats [out.json]      # list all posts with insights (read-only)
 
 Env:
   IG_ACCESS_TOKEN  (required, GitHub secret — never printed)
@@ -150,10 +151,61 @@ def publish(folder):
             f.write(f'### 投稿しました\n{link}\n')
 
 
+METRICS = ['views', 'reach', 'likes', 'comments', 'shares', 'saved', 'total_interactions',
+           'ig_reels_avg_watch_time', 'ig_reels_video_view_total_time']
+
+
+def insights(host, mid):
+    out = {}
+    try:
+        res = req('GET', f'{host}/{VER}/{mid}/insights', {'metric': ','.join(METRICS)})
+        for d in res.get('data', []):
+            out[d['name']] = (d.get('values') or [{}])[0].get('value')
+        return out
+    except RuntimeError as e:
+        first = str(e)[-300:]
+    for m in METRICS:   # some metrics are not available for every media type — try one by one
+        try:
+            res = req('GET', f'{host}/{VER}/{mid}/insights', {'metric': m})
+            for d in res.get('data', []):
+                out[d['name']] = (d.get('values') or [{}])[0].get('value')
+        except RuntimeError as e:
+            out.setdefault('_errors', {})[m] = str(e)[-200:]
+    if not any(k for k in out if k != '_errors'):
+        out['_first_error'] = first
+    return out
+
+
+def stats(path='stats.json'):
+    host, uid, name = discover()
+    acct = req('GET', f'{host}/{VER}/{uid}', {'fields': 'username,followers_count,media_count'})
+    items, after = [], None
+    while True:
+        p = {'fields': 'id,caption,media_type,media_product_type,permalink,timestamp,like_count,comments_count,thumbnail_url', 'limit': 50}
+        if after: p['after'] = after
+        res = req('GET', f'{host}/{VER}/{uid}/media', p)
+        items += res.get('data', [])
+        after = ((res.get('paging') or {}).get('cursors') or {}).get('after')
+        if not after or not (res.get('paging') or {}).get('next'): break
+    for it in items:
+        it['insights'] = insights(host, it['id'])
+    os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+    data = {'account': acct, 'fetched_at': time.strftime('%Y-%m-%dT%H:%M:%S%z'), 'media': items}
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f'@{acct.get("username")} followers={acct.get("followers_count")} media={acct.get("media_count")}')
+    for it in items:
+        i = it['insights']
+        print(it['timestamp'][:16], it.get('media_product_type'), 'views=', i.get('views'), 'saved=', i.get('saved'),
+              'err=' + json.dumps(i.get('_first_error', ''))[:200] if '_first_error' in i else '', (it.get('caption') or '').split('\n')[0][:30])
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1]
     if cmd == 'check':
         check()
+    elif cmd == 'stats':
+        stats(sys.argv[2] if len(sys.argv) > 2 else 'stats.json')
     elif cmd == 'publish':
         publish(sys.argv[2].rstrip('/'))
     else:

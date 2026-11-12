@@ -1,0 +1,136 @@
+{
+  "account": {
+    "id": "17841435576448672",
+    "followers_count": 3,
+    "media_count": 5,
+    "username": "tokyo_katteni_pr"
+  },
+  "fetched_at": "2026-11-12T11:44:01+0000",
+  "media": [
+    {
+      "id": "17977717296141285",
+      "caption": "もしも茨城県から暴走族を除いたら。\n\n全国の暴走族は1982年の4万2510人をピークに、いまは約9分の1。\nでは茨城から完全にいなくなったら…峠を攻めるのは、開業100年の筑波山ケーブルカーだけになります。\n\n出典：警察庁「警察白書」／茨城県警（くるまのニュース取材記事）／筑波観光鉄道／関東鉄道\n※画像はAI生成のイメージです　※暴走行為は犯罪です\n\n#茨城 #筑波山 #暴走族 #もしもシリーズ #雑学",
+      "comments_count": 0,
+      "like_count": 0,
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfoaylcEm8E/",
+      "thumbnail_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/899578631_18116491571185882_6925728240999498019_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=WJ587rWtpCwQ7kNvwEPowH5&_nc_oc=AdoYDtcmneyJUdzhjSlENL2NmU4dOlc9azgLudkKajwhR-l10rJPTMY05pDhYCCct_4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=My2ec5Kdj4bQ-2NsZKRKvA&_nc_tpa=Q5bMBQIiKvpYRstmjwCQbTO51mxU6r50X5YHahlCgh0hAxXetsS3MM72qKVpLWUe5oUSCfprIZz8emO6pg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTj3oVw4dI21pj_knDGEm7Orw7UzPz_SDHc8MtfLYCXBQ&oe=6AFB6FDF",
+      "timestamp": "2026-11-12T06:32:39+0000",
+      "insights": {
+        "_errors": {
+          "views": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYmEWzFXpv_Ewv4FD64WP9l\"}}",
+          "reach": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A0jLNOLO05TTwwcglAJXbRZ\"}}",
+          "likes": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Am2TOGQCrRCYGTQURPIyHrJ\"}}",
+          "comments": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ao38oWhW0Q8jQF0ANGkZUoa\"}}",
+          "shares": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APZkkhATGNd1tC4HDBlsrLj\"}}",
+          "saved": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Afr0lH0FIfSHWb1EdCfQDsj\"}}",
+          "total_interactions": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHnf4H6bLbQWm5LdWVriNQ4\"}}",
+          "ig_reels_avg_watch_time": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AXY7MPT1TQ4w2u-QSMIFkxu\"}}",
+          "ig_reels_video_view_total_time": "com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ARevsOL3wATg_7wUeu2kTI8\"}}"
+        },
+        "_first_error": "GET https://graph.facebook.com/v23.0/17977717296141285/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Arw3Qw4ugVEVQ1xv7j2ELoX\"}}"
+      }
+    },
+    {
+      "id": "18035539310878498",
+      "caption": "え、渋谷にロープウェイ？🚡\n\n…実はこれ、1951年に実在しました。\n東横百貨店と玉電ビルの屋上を結んだ、子ども専用のロープウェイ「ひばり号」。山手線の真上を約75m往復していました（定員12人・1953年に廃止）。\n\nちなみに玉電ビルの3階は、当時の銀座線のホーム。\nつまり乗り過ごすと…（※乗り過ごせません）\n\nすべての道は、日本橋に通ず。\n\n※3D・速度表示は演出です。当時の建物や位置関係は簡略化しています\n出典：東急株式会社「渋谷の歴史」、三井住友トラスト不動産「このまちアーカイブス 渋谷」、現代ビジネスほか\n\n町ひとつ、お店ひとつの魅力を「勝手にPR」しています。取り上げてほしい方はDMへ📩\n\nShibuya, 1951 — a kids-only ropeway once crossed above the Yamanote Line. And yes, all roads lead to Nihonbashi.\n\n#東京の町勝手にPR #渋谷 #昭和レトロ #日本橋 #tokyotravel",
+      "comments_count": 0,
+      "like_count": 2,
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfoOL9WlU_M/",
+      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/901047633_18116479316185882_5350479544482102819_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TIeSWJHMVAsQ7kNvwF2NMTT&_nc_oc=AdrGLsuQ3oEwCKFbHU7xbdlu2bFIg6Uk9Qh1RKFQoIH6FYlQlOxrhqJQv_mYHzuLnzU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=My2ec5Kdj4bQ-2NsZKRKvA&_nc_tpa=Q5bMBQKHyhylDa3Qjga0JL5puagqEC3Mt-9MUo5tjLZPTEo-9K2Hlp2xRKPPmDDVluTWdg2ktK4rff2itA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQT_dyV1dwrlxC4v4DkbwrdxT7JFmkuttSOfGyAP4NIRKA&oe=6AFB8714",
+      "timestamp": "2026-11-12T04:42:12+0000",
+      "insights": {
+        "_errors": {
+          "views": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APbr4zcFs_AdeHK-96xZAR7\"}}",
+          "reach": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6XK5lR1mfDhw--mrcL2MNu\"}}",
+          "likes": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AekNwmzD8T3j4JJx5j3V6QU\"}}",
+          "comments": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASpCojhoRVXR5AbswbO9g1d\"}}",
+          "shares": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-a_yDIU02FGzSHeTnip7M8\"}}",
+          "saved": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5f-lgmDj-WFcjbgUFUbOPS\"}}",
+          "total_interactions": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A0X-5xDI3VAAtY79R49zkGW\"}}",
+          "ig_reels_avg_watch_time": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A16Zrm2pIh2M55DfChzo60j\"}}",
+          "ig_reels_video_view_total_time": "com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AH2NxgfLVm9etdv_yYPdd0F\"}}"
+        },
+        "_first_error": "GET https://graph.facebook.com/v23.0/18035539310878498/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A8LsHqgiG9l5jqbFKal5rqi\"}}"
+      }
+    },
+    {
+      "id": "17954048202299811",
+      "caption": "あの「日本橋」の真横に、高さ約284mの超高層が完成🏙️\n\n東京ミッドタウン日本橋（9月30日竣工）。六本木・日比谷・八重洲に続く4つ目のミッドタウンです。\nヒルトン最上位「ウォルドーフ・アストリア」、アジア太平洋初のブランドレジデンス、1,600人ホール、21階のスカイガーデン…そして足元には文化財の旧館を保存。2027年グランドオープン予定。\n\n💡豆知識：ヒルトンの提携カードには、継続で週末の無料宿泊特典が付くものも（年会費・利用条件・対象外ホテルあり。本投稿は広告ではありません）\n\n※イラストはイメージです\nカバー写真：Wara070（Wikimedia Commons／CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ ）を縦長に加工\n出典：三井不動産・野村不動産 2026年4月21日発表、アメリカン・エキスプレス公式サイトほか／地図 © OpenStreetMap contributors\n\n町ひとつ、お店ひとつの魅力を「勝手にPR」しています。取り上げてほしい方はDMへ📩\n\nA 284m tower just completed next to the iconic Nihonbashi bridge — Tokyo's 4th Midtown, opening 2027.\n\n#東京の町勝手にPR #東京ミッドタウン日本橋 #日本橋 #再開発 #tokyotravel",
+      "comments_count": 0,
+      "like_count": 6,
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfmXDdXgOr2/",
+      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899311143_18116344376185882_3217061987978367126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=s9RlwCN5ssoQ7kNvwFRII7x&_nc_oc=Adp-zn4dQlYqeGXe57abyofWU5HDap9AOzsGJCbio4flRobW7QrQwmuK1prEC0Bi4SI&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=My2ec5Kdj4bQ-2NsZKRKvA&_nc_tpa=Q5bMBQILZ0KgL5tZGxlm-fCorperAS-6hCuvRJzlwtWz97-C334vi8zM-8U3t_LQbHGGTbTWt3PvaoOmYQ&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTBVLhTflr08WglY7sECX1NAXPKeZymGdxp_gd5CUDItQ&oe=6AFB90EF",
+      "timestamp": "2026-11-11T11:20:55+0000",
+      "insights": {
+        "_errors": {
+          "views": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJFqftTn_KjCcR5B1iWsZuD\"}}",
+          "reach": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A9738vSZJCcX094WqquMsm_\"}}",
+          "likes": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AWmIoHlhxxkCv9VFDHg1dmh\"}}",
+          "comments": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASVRIwVy55lEROZBeBFpot7\"}}",
+          "shares": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A9IxwtGvV9VpsYq1NAo0LNi\"}}",
+          "saved": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AwF67B37qrS7uC5qvabMKYK\"}}",
+          "total_interactions": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ak0cMqtyFn0Ym_GUI0_tJV0\"}}",
+          "ig_reels_avg_watch_time": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A3NN_RidCbnQqzu8Xai4MBj\"}}",
+          "ig_reels_video_view_total_time": "com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AwrL2EnRMcwB2OAizyrTVQ0\"}}"
+        },
+        "_first_error": "GET https://graph.facebook.com/v23.0/17954048202299811/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AL6CWNRvCKwinyshDL8q4BV\"}}"
+      }
+    },
+    {
+      "id": "18122220295989231",
+      "caption": "東京駅の目の前に、日本一高いビルが建設中🔥\n\nTorch Tower（トーチタワー）は高さ約385m・地上62階。延床面積は東京ドーム約12個分。\n中には商業・約2,000席のホール・オフィス・アジア初進出の超高級ホテル・賃貸住宅・展望台、そして温浴施設も計画。2028年完成予定です。\n\n※イラストはイメージです\n出典：三菱地所 TOKYO TORCH公式サイトほか／地図 © OpenStreetMap contributors\n\n町ひとつ、お店ひとつの魅力を「勝手にPR」しています。取り上げてほしい方はDMへ📩\n\nJapan's tallest building is rising right in front of Tokyo Station — 385m, opening 2028.\n\n#東京の町勝手にPR #トーチタワー #東京駅 #再開発 #tokyotravel",
+      "comments_count": 0,
+      "like_count": 1,
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfmSjHyDhRj/",
+      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899351605_18116337356185882_1935015202982407655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZrShPZoQ8HsQ7kNvwHJDW8x&_nc_oc=AdrGzy8bCgQkT1cfyhDIqiCbLgsmlTI_F9GpD398k5YCzPF8M5yqvJKWquyg-P99ZTU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=My2ec5Kdj4bQ-2NsZKRKvA&_nc_tpa=Q5bMBQL1KBGZSR89b9HoNt46y5cGQP94Md4nbF3lEfyae3eX2gYAlQchVQoDmmERGSO5lC21NwGYFnsyIA&_nc_ct=RQosPBUKAAAA&oh=00_AQT1VNOgsD21qP0zUpn6cUl7xidoWB3Tp3rzVeQc28wh8Q&oe=6AFB8856",
+      "timestamp": "2026-11-11T10:41:35+0000",
+      "insights": {
+        "_errors": {
+          "views": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYF8eEWL5DR0mt6i0osoRUi\"}}",
+          "reach": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AyPsfZ7Usu7DyGeI9PctMQF\"}}",
+          "likes": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AKUwsLB8PaEnaW-FwPz_7TP\"}}",
+          "comments": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AzxNAk1Vvn7qrCxSd4SYuCf\"}}",
+          "shares": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Acq1Eej8FqjaLNbaaiewKdO\"}}",
+          "saved": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AfQiYYNgYbbJmmnIxG7DvCu\"}}",
+          "total_interactions": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AqfHBP0CAu3skDeedqu6YcW\"}}",
+          "ig_reels_avg_watch_time": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYJG7ZChvH-ZXnluJahb9KD\"}}",
+          "ig_reels_video_view_total_time": "com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AvWgB3trD0n4qn3LXIW7TbT\"}}"
+        },
+        "_first_error": "GET https://graph.facebook.com/v23.0/18122220295989231/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYtPcAMPNF_1O4GZOCS36yE\"}}"
+      }
+    },
+    {
+      "id": "18120290875796402",
+      "caption": "茅場町から、地上に出ずにどこまで行ける？🚇\n\n実は茅場町〜日本橋は、すでに地下でつながっています。\n呉服橋交差点の角で進む「八重洲一丁目北地区第一種市街地再開発事業」（通称：呉服橋プロジェクト）。2029年度竣工予定の南街区の地下で日本橋駅と東京駅がつながると、東銀座まで10駅が地下でひと続きに。\n\n※地下通路の線は模式図です\n出典：東京建物 2024年12月10日発表ほか／地図 © OpenStreetMap contributors\n\n町ひとつ、お店ひとつの魅力を「勝手にPR」しています。\nうちの町・お店も取り上げてほしい方はDMへ📩\n\nKayabacho → Ginza, 10 stations without stepping outside ☔\n\n#東京の町勝手にPR #日本橋 #東京駅 #地下通路 #tokyotravel",
+      "comments_count": 0,
+      "like_count": 1,
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfmQTzgD8EW/",
+      "thumbnail_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/902285299_18116337437185882_643070603488154745_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=t_Y3DTkQUyUQ7kNvwEI-bFj&_nc_oc=AdrlatPB9Zcax3lt1Kp9FFbwGo2g4voXs7zToGpPkI1Umh5kCQGYenQt6Ah8-EZMJ8Q&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=My2ec5Kdj4bQ-2NsZKRKvA&_nc_tpa=Q5bMBQI0Cesv0cijYFBAHfX0-VgeUO1hIq4-CyUckIwVApEDCGIK5kvwubUXgp-yRZ1gHvxRRbmSVdkt1g&_nc_ct=RQosPBUKAAAA&oh=00_AQSCPI4lwWnE9W9fICyUwsZrHX7KPGBbhqJTfxB8vmJEgQ&oe=6AFB823D",
+      "timestamp": "2026-11-11T10:22:01+0000",
+      "insights": {
+        "_errors": {
+          "views": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_COmCk277zJRVkQeHU63Io\"}}",
+          "reach": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A0dseHfacHlhX-dDNMLBsUa\"}}",
+          "likes": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ACATqz9Cdko9WqZE8eVLcRx\"}}",
+          "comments": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ALpxYe0e46Ge5p__5Qo8yoq\"}}",
+          "shares": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AsiNFhW6Yn6mbi4tvg5Nj1v\"}}",
+          "saved": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AsGtUl8JK_-fTO5pzPMLzGZ\"}}",
+          "total_interactions": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ApiP-zOHe_nDj-G6neFwMVU\"}}",
+          "ig_reels_avg_watch_time": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7XLTRJbd2Xfn-DLPt9gzfK\"}}",
+          "ig_reels_video_view_total_time": "com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ADfGFvdChvI0bCWMtYpP7tm\"}}"
+        },
+        "_first_error": "GET https://graph.facebook.com/v23.0/18120290875796402/insights -> 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYs6dkaTfAxpKyrtG79p4Tu\"}}"
+      }
+    }
+  ]
+}

@@ -23,10 +23,25 @@ def get(url, params=None, headers=None):
         return r.read()
 
 
-def google_trends():
+NEWS_QUERIES = ['東京 初上陸', '東京 新店 オープン', '東京 閉店', '東京 再開発 取り壊し', '東京 開業 ホテル', '東京 行列 話題']
+
+
+def google_news(q):
     out = []
     try:
-        raw = get('https://trends.google.co.jp/trending/rss', {'geo': 'JP'}, UA)
+        raw = get('https://news.google.com/rss/search', {'q': q + ' when:3d', 'hl': 'ja', 'gl': 'JP', 'ceid': 'JP:ja'}, UA)
+        for it in ET.fromstring(raw).iter('item'):
+            out.append({'title': it.findtext('title', ''), 'source': it.findtext('source', ''), 'pubDate': it.findtext('pubDate', ''),
+                        'url': it.findtext('link', '')})
+    except Exception as e:
+        out = [{'error': f'{type(e).__name__}: {str(e)[:300]}'}]
+    return out[:15]
+
+
+def google_trends(geo='JP'):
+    out = []
+    try:
+        raw = get('https://trends.google.co.jp/trending/rss', {'geo': geo}, UA)
         root = ET.fromstring(raw)
         ns = {'ht': 'https://trends.google.com/trending/rss'}
         for it in root.iter('item'):
@@ -76,12 +91,20 @@ def hashtags(tags):
 if __name__ == '__main__':
     extra = [t.strip().lstrip('#') for t in (sys.argv[1] if len(sys.argv) > 1 else '').split(',') if t.strip()]
     tags = list(dict.fromkeys(WATCH + extra))[:15]
-    data = {'fetched_at': time.strftime('%Y-%m-%dT%H:%M:%S%z'), 'google_trends_jp': google_trends(), 'ig_hashtags': hashtags(tags)}
+    use_ig = os.environ.get('IG_HASHTAGS', '') == '1'   # needs Meta app review (Instagram Public Content Access)
+    data = {'fetched_at': time.strftime('%Y-%m-%dT%H:%M:%S%z'),
+            'google_trends_jp': google_trends('JP'), 'google_trends_tokyo': google_trends('JP-13'),
+            'google_news': {q: google_news(q) for q in NEWS_QUERIES},
+            'ig_hashtags': hashtags(tags) if use_ig else {'_skipped': 'Instagram Public Content Access not approved yet'}}
     os.makedirs('data/trends', exist_ok=True)
     for p in ('data/trends/latest.json', f"data/trends/{time.strftime('%Y-%m-%d')}.json"):
         with open(p, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
     g = data['google_trends_jp']
     print('google trends:', len(g), 'items;', ', '.join(x.get('title', x.get('error', '')) for x in g[:10]))
+    t2 = data['google_trends_tokyo']
+    print('google trends tokyo:', len(t2), 'items;', ', '.join(x.get('title', x.get('error', '')) for x in t2[:10]))
+    for q, items in data['google_news'].items():
+        print('news[' + q + ']:', len(items), '|', ' / '.join(i.get('title', i.get('error', ''))[:40] for i in items[:4]))
     for t, v in data['ig_hashtags'].items():
         print('#' + t, 'ERROR ' + str(v.get('error'))[:200] if isinstance(v, dict) and 'error' in v else f"{len(v.get('top', []))} top posts" if isinstance(v, dict) else v)

@@ -1,0 +1,24 @@
+name: ナレーション品質テスト（モデル比較＋自動聞き取り）
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'tts/ 以下のジョブ名'
+        required: true
+permissions:
+  contents: write
+concurrency: tts
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q faster-whisper
+      - run: python3 scripts/tts_qa.py "${{ github.event.inputs.job }}"
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      - name: save
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tts && (git diff --cached --quiet || git commit -m "tts: qa [skip ci]") && git pull --rebase -q && git push

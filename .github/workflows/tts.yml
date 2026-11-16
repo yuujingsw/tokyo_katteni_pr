@@ -1,0 +1,27 @@
+name: ナレーション生成（ElevenLabs）
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'tts/ 以下のジョブ名（空なら全部）'
+        required: false
+        default: ''
+  push:
+    branches: [main]
+    paths: ['tts/*/lines.json']
+permissions:
+  contents: write
+concurrency: tts
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/tts.py "${{ github.event.inputs.job }}"
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+      - name: save audio
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tts && (git diff --cached --quiet || git commit -m "tts: generated audio [skip ci]") && git pull --rebase -q && git push

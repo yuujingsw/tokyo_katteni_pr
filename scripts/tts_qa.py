@@ -44,7 +44,13 @@ def cer(ref, hyp):
     return d[len(b)] / max(1, len(a))
 
 
+import subprocess, numpy as np
 from faster_whisper import WhisperModel
+
+
+def load(path):
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-f', 's16le', '-ac', '1', '-ar', '16000', '-'], capture_output=True, check=True).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float32) / 32768
 asr = WhisperModel('medium', device='cpu', compute_type='int8')
 report = {'voice': voice, 'models': {}}
 for model, st in MODELS.items():
@@ -59,7 +65,7 @@ for model, st in MODELS.items():
             except urllib.error.HTTPError as e:
                 rows.append({'variant': variant, 'id': ln['id'], 'error': f'{e.code} {e.read()[:200]!r}'})
                 break
-            segs, _ = asr.transcribe(path, language='ja', beam_size=5)
+            segs, _ = asr.transcribe(load(path), language='ja', beam_size=5)
             heard = ''.join(s.text for s in segs)
             rows.append({'variant': variant, 'id': ln['id'], 'said': ln['text'], 'heard': heard,
                          'cer': round(cer(ln['text'], heard), 3)})

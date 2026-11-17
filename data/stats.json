@@ -1,12 +1,34 @@
 {
   "account": {
     "id": "17841435576448672",
-    "followers_count": 3,
+    "followers_count": 4,
     "media_count": 5,
     "username": "tokyo_katteni_pr"
   },
-  "fetched_at": "2026-11-16T02:07:03+0000",
+  "fetched_at": "2026-11-17T04:28:49+0000",
   "media": [
+    {
+      "id": "18140365828636162",
+      "caption": "渋谷駅を丸ごと買収したら、いくら？\n\n試算は約2,900億円。\n（JR・東急・東京メトロ・京王の渋谷駅の鉄道事業。駅ビルは含まない）\n\n【計算】\n① 渋谷駅で乗る人：1日 約143万人\n② × 平均運賃 約137円 × 365日 ＝ 運賃収入 年約716億円\n③ 人件費・電気代などを引いた稼ぎ：約290億円（運賃収入の約4割）\n④ × 稼ぎの約10年分 ＝ 約2,900億円\n\nなぜ10年分？\n電車は稼ぎの約6割が線路・車両の作り直しに消え、手元に残るのは約4割。\n都心のビルは家賃の7〜8割が残るので、稼ぎの約30年分（期待利回り約3.3%）で売れる。\nだから鉄道会社は駅ビルを建てまくる。\n\n値段の付け方はいくつもあります。今回は一番シンプルな「稼ぎの何年分か」（マルチプル法）。\nDCFでやったら？ほかの駅は？コメントで👇\n\n【前提・出典】\n乗車人数：JR東日本（乗車人員）・東急・東京メトロ・京王（乗降人員÷2）各社公表値、2024年度中心\n平均運賃：国土交通省「鉄道統計年報」の旅客運輸収入÷輸送人員（2023年度、JRは仮定値）\n設備投資の比率：国土交通省 鉄道事業の設備投資データ\n期待利回り：日本不動産研究所「不動産投資家調査」\n※2026年11月時点の独自の簡易試算です　※ナレーションはAI音声です\n\n#渋谷 #渋谷駅 #企業分析 #ビジネス #雑学",
+      "comments_count": 0,
+      "like_count": 3,
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfzuGOTiYkr/",
+      "thumbnail_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/911051064_18117300848185882_6829323971944890178_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=PhAKQwtkqEMQ7kNvwGzp99k&_nc_oc=AdoIjGEKWX5ecW6f7ttufMrPPzDBRx-C74ZRhbYSwkEVviuMc7eubW5bOFsFcrxmbHM&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=wBQV7rE1NjkfUqslmqtYRg&_nc_tpa=Q5bMBQIBKciwzkrm9ZSsbZw4iYLXgkV_ceFmg1S7JhVh0IcZRfnfZUoj_RwncztRXTRJwAZ0d65TmD7fug&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQSZDuc85IMkBFRrs8BhrpMBSvo-wL4e8Uk9QQZ5QxnKBg&oe=6B01BC40",
+      "timestamp": "2026-11-16T15:53:01+0000",
+      "insights": {
+        "views": 1231,
+        "reach": 1054,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 26643,
+        "ig_reels_video_view_total_time": 28482115
+      }
+    },
     {
       "id": "17977717296141285",
       "caption": "もしも茨城県から暴走族を除いたら。\n\n全国の暴走族は1982年の4万2510人をピークに、いまは約9分の1。\nでは茨城から完全にいなくなったら…峠を攻めるのは、開業100年の筑波山ケーブルカーだけになります。\n\n出典：警察庁「警察白書」／茨城県警（くるまのニュース取材記事）／筑波観光鉄道／関東鉄道\n※画像はAI生成のイメージです　※暴走行為は犯罪です\n\n#茨城 #筑波山 #暴走族 #もしもシリーズ #雑学",
@@ -15,40 +37,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfoaylcEm8E/",
-      "thumbnail_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/899578631_18116491571185882_6925728240999498019_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9yUNzIPkffEQ7kNvwEN_0DI&_nc_oc=Adpby_GYPnvJQ2soM9k8EOfDWM_JYsNMnEetrKmWNgzT4JXZqwNWzIMCwruKaTLRK7o&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=djIm7jm_kYH8dxtNWWP8fA&_nc_tpa=Q5bMBQKXzKVdjsp2h0D3sbMu6PBiC_wL9vnls-sZOmoMebnUUPwaUZXWhLil8VzZuViJGPHOrJUkCclCsA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQDtRl4tWXzt_p1ctW9RMmBis5d-povjoZzhht-Z174cg&oe=6B00455F",
+      "thumbnail_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/899578631_18116491571185882_6925728240999498019_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=3wN0jTY4cPUQ7kNvwGl7Y4C&_nc_oc=AdpIJnEgTB_CPNIvqedeJfPoevbs3jCXP67AWfpksLqKdRHwFbvOOWWmZT_o0ciB7SI&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=wBQV7rE1NjkfUqslmqtYRg&_nc_tpa=Q5bMBQJTU-3sHPjcvNllSEYW3-loSuCMMOJsGp1oPMDrHguQvWwpqsgin1inuaS4NJNTxlIP0tn3DfM5hw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTWHjtf4yqv1VV1mDtVxESxLqojwG9AQqEc1_X9CsQG1w&oe=6B0196DF",
       "timestamp": "2026-11-12T06:32:39+0000",
       "insights": {
-        "views": 135,
-        "reach": 120,
+        "views": 136,
+        "reach": 121,
         "likes": 0,
         "comments": 0,
         "shares": 2,
         "saved": 0,
         "total_interactions": 2,
-        "ig_reels_avg_watch_time": 10907,
-        "ig_reels_video_view_total_time": 1363449
-      }
-    },
-    {
-      "id": "18035539310878498",
-      "caption": "え、渋谷にロープウェイ？🚡\n\n…実はこれ、1951年に実在しました。\n東横百貨店と玉電ビルの屋上を結んだ、子ども専用のロープウェイ「ひばり号」。山手線の真上を約75m往復していました（定員12人・1953年に廃止）。\n\nちなみに玉電ビルの3階は、当時の銀座線のホーム。\nつまり乗り過ごすと…（※乗り過ごせません）\n\nすべての道は、日本橋に通ず。\n\n※3D・速度表示は演出です。当時の建物や位置関係は簡略化しています\n出典：東急株式会社「渋谷の歴史」、三井住友トラスト不動産「このまちアーカイブス 渋谷」、現代ビジネスほか\n\n町ひとつ、お店ひとつの魅力を「勝手にPR」しています。取り上げてほしい方はDMへ📩\n\nShibuya, 1951 — a kids-only ropeway once crossed above the Yamanote Line. And yes, all roads lead to Nihonbashi.\n\n#東京の町勝手にPR #渋谷 #昭和レトロ #日本橋 #tokyotravel",
-      "comments_count": 0,
-      "like_count": 2,
-      "media_product_type": "REELS",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DfoOL9WlU_M/",
-      "thumbnail_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/901047633_18116479316185882_5350479544482102819_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=OEED18o3Z3EQ7kNvwEsSB4Q&_nc_oc=AdrHa-PSlZQ4_EKEuYgz_BmYiw7fs2cOa0sn9Xjx9w9lYwESPXvt2EW3JmejfyWvNMc&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=djIm7jm_kYH8dxtNWWP8fA&_nc_tpa=Q5bMBQInslHYAzdxgzYS0X6TIq3sfbRktU6m8cGjrK_9_GEt_DaxbTl6EpkvBSHUXNGUONIHPKAoB6KRjQ&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQSm4SAdY-T-ge97nPn2hqv63LeUmA3HFL_c3IaW04F7PQ&oe=6B002454",
-      "timestamp": "2026-11-12T04:42:12+0000",
-      "insights": {
-        "views": 1310,
-        "reach": 1185,
-        "likes": 2,
-        "comments": 0,
-        "shares": 0,
-        "saved": 1,
-        "total_interactions": 3,
-        "ig_reels_avg_watch_time": 10689,
-        "ig_reels_video_view_total_time": 12591980
+        "ig_reels_avg_watch_time": 10821,
+        "ig_reels_video_view_total_time": 1374374
       }
     },
     {
@@ -59,18 +59,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfmXDdXgOr2/",
-      "thumbnail_url": "https://scontent-dfw5-3.cdninstagram.com/v/t51.82787-15/899311143_18116344376185882_3217061987978367126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wddQjlTEXBkQ7kNvwE0WkpY&_nc_oc=AdoGtIacIXexR9jvhvELJcqofr57KUHUxJ92zR2mhJcp_oOZU_V0V0mlqmXleqV7FXM&_nc_zt=23&_nc_ht=scontent-dfw5-3.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=djIm7jm_kYH8dxtNWWP8fA&_nc_tpa=Q5bMBQLH12N_reXApj8Zs8jyyHysJRQcJWatzla_ZbY-Ho2-C3rJo_LO7JofEysRVU-lcVxTqORPGtGsEw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRf4wxf7C-cehVj34REe6ngt9cmt13JiCGP4r3xRjzeiw&oe=6B002E2F",
+      "thumbnail_url": "https://scontent-dfw5-3.cdninstagram.com/v/t51.82787-15/899311143_18116344376185882_3217061987978367126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wddQjlTEXBkQ7kNvwE65PXJ&_nc_oc=AdrpjvZQ1SyjNkwaCHwbmOuo-ttra2eU148X6O7ciu1_8omJDtmqw0jd9YIV-GTTvRE&_nc_zt=23&_nc_ht=scontent-dfw5-3.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=wBQV7rE1NjkfUqslmqtYRg&_nc_tpa=Q5bMBQKBUiZC5o0t3a7fNNQAd1NzUtxjegu72UWLpmTe9lhTzBofHCS6KDLu9yLcL9_QFzL2Nin6IO3R-w&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRuz5FVt86pBt2b_B6HCPXPveMuJ7xLZFECJ4zSRiiTCA&oe=6B01B7EF",
       "timestamp": "2026-11-11T11:20:55+0000",
       "insights": {
-        "views": 1768,
+        "views": 1769,
         "reach": 1545,
         "likes": 6,
         "comments": 0,
         "shares": 2,
         "saved": 1,
         "total_interactions": 10,
-        "ig_reels_avg_watch_time": 12894,
-        "ig_reels_video_view_total_time": 20038497
+        "ig_reels_avg_watch_time": 12883,
+        "ig_reels_video_view_total_time": 20047016
       }
     },
     {
@@ -81,18 +81,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfmSjHyDhRj/",
-      "thumbnail_url": "https://scontent-dfw5-3.cdninstagram.com/v/t51.82787-15/899351605_18116337356185882_1935015202982407655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=67kMiaVbH6UQ7kNvwHunOoB&_nc_oc=AdrZuTfbPXvieP5I5KwVsQkSaUkZAST_MvGxQPxUFhdPG10LssU9r1gReg4zUHnFoC0&_nc_zt=23&_nc_ht=scontent-dfw5-3.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=djIm7jm_kYH8dxtNWWP8fA&_nc_tpa=Q5bMBQJzJK6mMdrr-ZmU82twMRtrjWPNGGbKutLRVjTiSN9aBKL_Y5sMRr3dlTxZR0ioXalyWqtw0z9g0A&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQQFISmyBdj2pQv8DnRSl9D3qDQIMmZ30KnKQfyer0fPig&oe=6B002596",
+      "thumbnail_url": "https://scontent-dfw5-3.cdninstagram.com/v/t51.82787-15/899351605_18116337356185882_1935015202982407655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=67kMiaVbH6UQ7kNvwHjn24h&_nc_oc=Adon2yfSOylUHnouhf-f54h_81n282snayEFHOHc0dt7hNqxR7AwV6gBzAyXt1-7tps&_nc_zt=23&_nc_ht=scontent-dfw5-3.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=wBQV7rE1NjkfUqslmqtYRg&_nc_tpa=Q5bMBQJ8U16773LS8XUvM8-J8YWqPNnXP5_S4zo4YjHg_8AqSAuL4uqBmQtzqV0zr-boYyz1qztt5cLMqg&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQSMDaQqkLHqdWisnm8vkf-29BJSevqS1BOBMOXXz-M1bw&oe=6B01AF56",
       "timestamp": "2026-11-11T10:41:35+0000",
       "insights": {
-        "views": 202,
-        "reach": 186,
+        "views": 203,
+        "reach": 187,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 0,
         "total_interactions": 1,
-        "ig_reels_avg_watch_time": 12500,
-        "ig_reels_video_view_total_time": 2325149
+        "ig_reels_avg_watch_time": 12504,
+        "ig_reels_video_view_total_time": 2338282
       }
     },
     {
@@ -103,18 +103,18 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfmQTzgD8EW/",
-      "thumbnail_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/902285299_18116337437185882_643070603488154745_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VrDDrcxRJToQ7kNvwHRdru2&_nc_oc=AdqDx6fc99MQGUC31vrKqUE5Lz91Bysi8k3OSxDHyNVjz8nAUHTUHMApAIWdi4aDxFw&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=djIm7jm_kYH8dxtNWWP8fA&_nc_tpa=Q5bMBQKEvl9R3EYs77sSUrIl4FwL9Wgrp9Hal2R5JSLjwpcwkF7XiFQfWGY1hWZ6aTpCVkxLFnCQxLICDw&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQSzGoMxYEEwIv9rcZtZTGn4kVo4cM_xjmok5H8wEaHShA&oe=6B001F7D",
+      "thumbnail_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/902285299_18116337437185882_643070603488154745_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VrDDrcxRJToQ7kNvwGh30KI&_nc_oc=AdqXjDsZx74wT6lYHTxsyGMj8wJE57Vo55h_ui7S5anks7yTDDFBP9dmYhPSMf6vsX0&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=wBQV7rE1NjkfUqslmqtYRg&_nc_tpa=Q5bMBQKmwLxo6n7WWNgLGYNsX_6I_bTwlFTNXPafx_IQSRC7Ci9ZwelsLbUleT6dxa1RdYa4nyycNcLOmQ&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQTotsNutJZCc_y7j_QwSl-SoJo6vYcwhTxpKevQcRY6jQ&oe=6B01A93D",
       "timestamp": "2026-11-11T10:22:01+0000",
       "insights": {
-        "views": 167,
-        "reach": 143,
+        "views": 168,
+        "reach": 144,
         "likes": 1,
         "comments": 0,
         "shares": 0,
         "saved": 2,
         "total_interactions": 3,
-        "ig_reels_avg_watch_time": 12388,
-        "ig_reels_video_view_total_time": 1833464
+        "ig_reels_avg_watch_time": 12352,
+        "ig_reels_video_view_total_time": 1840588
       }
     }
   ]
